@@ -1,0 +1,82 @@
+drop view nl_employee ;
+drop view nl_notification_list;
+
+create view nl_employee as
+SELECT 
+    MEMBER_ID,
+    TYPE,
+    STATUS,
+    NAME,
+    DESCRIPTION,
+    OWNERSHIP_DIVISION_CODE,
+    EXTERNAL_VIEW_NAME,
+    STATUS_EFFECTIVE_DATE,
+    NL_ADMIN_USER_ID
+FROM nl_member where type = 'Employee' ;
+
+create or replace TRIGGER nl_employee_trigger
+     INSTEAD OF insert ON nl_employee
+     FOR EACH ROW
+BEGIN
+     insert into nl_member( 
+    MEMBER_ID,
+    TYPE,
+    STATUS,
+    NAME,
+    DESCRIPTION,
+    OWNERSHIP_DIVISION_CODE,
+    EXTERNAL_VIEW_NAME,
+    STATUS_EFFECTIVE_DATE,
+    NL_ADMIN_USER_ID)
+     VALUES ( 
+    :NEW.MEMBER_ID,
+    'Employee',
+    :NEW.STATUS,
+    :NEW.NAME,
+    :NEW.DESCRIPTION,
+    :NEW.OWNERSHIP_DIVISION_CODE,
+    :NEW.EXTERNAL_VIEW_NAME,
+    :NEW.STATUS_EFFECTIVE_DATE,
+    :NEW.NL_ADMIN_USER_ID) ;
+END;
+/
+
+create view nl_notification_list as
+SELECT 
+    MEMBER_ID,
+    TYPE,
+    STATUS,
+    NAME,
+    DESCRIPTION,
+    OWNERSHIP_DIVISION_CODE,
+    EXTERNAL_VIEW_NAME,
+    STATUS_EFFECTIVE_DATE,
+    NL_ADMIN_USER_ID
+FROM nl_member where type = 'Notification List' ;
+
+create or replace TRIGGER nl_notification_list_trigger
+     INSTEAD OF insert ON nl_notification_list
+     FOR EACH ROW
+BEGIN
+     insert into nl_member( 
+    MEMBER_ID,
+    TYPE,
+    STATUS,
+    NAME,
+    DESCRIPTION,
+    OWNERSHIP_DIVISION_CODE,
+    EXTERNAL_VIEW_NAME,
+    STATUS_EFFECTIVE_DATE,
+    NL_ADMIN_USER_ID)
+     VALUES ( 
+    :NEW.MEMBER_ID,
+    'Notification List',
+    :NEW.STATUS,
+    :NEW.NAME,
+    :NEW.DESCRIPTION,
+    :NEW.OWNERSHIP_DIVISION_CODE,
+    :NEW.EXTERNAL_VIEW_NAME,
+    :NEW.STATUS_EFFECTIVE_DATE,
+    :NEW.NL_ADMIN_USER_ID) ;
+END;
+/
