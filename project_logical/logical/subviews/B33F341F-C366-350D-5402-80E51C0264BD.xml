@@ -26,7 +26,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="76E82F95-9861-232E-A0EB-896BBB670FB9" otype="Entity" vid="033AF55D-7993-802D-B2C1-06C9F5ABEB2F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="113" y="331" width="150" height="90"/>
+<bounds x="109" y="240" width="150" height="90"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="985D9546-7B6C-563C-C765-80610454E3B3" otype="Entity" vid="4709370F-9116-7E4C-7FBA-D38B2E42C22D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -42,28 +42,20 @@
 <point x="523" y="385"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2CDFA4DA-551D-2AEB-615D-D41DF4BA765F" otype="Relation" vid_source="4709370F-9116-7E4C-7FBA-D38B2E42C22D" vid_target="884D6FDD-136C-E7A8-41BA-39FE3415B7DC">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<lineWidth>1</lineWidth>
-<points>
-<point x="352" y="131"/>
-<point x="192" y="131"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="6AC0088E-8A65-83F1-6809-68E08A5777C3" otype="Hierarchy relation" vid_source="884D6FDD-136C-E7A8-41BA-39FE3415B7DC" vid_target="033AF55D-7993-802D-B2C1-06C9F5ABEB2F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="152" y="171"/>
-<point x="152" y="331"/>
+<point x="150" y="171"/>
+<point x="150" y="240"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="79D34BF3-05AA-EDBA-5A30-2C987CACA96C" otype="Relation" vid_source="033AF55D-7993-802D-B2C1-06C9F5ABEB2F" vid_target="4709370F-9116-7E4C-7FBA-D38B2E42C22D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="188" y="331"/>
-<point x="352" y="168"/>
+<point x="259" y="252"/>
+<point x="352" y="252"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8CBC4039-7DEA-FFFD-D0FC-47F9FA4BDD5C" otype="Relation" vid_source="4709370F-9116-7E4C-7FBA-D38B2E42C22D" vid_target="58253395-F028-3697-9ACA-C3AC8D86B529">

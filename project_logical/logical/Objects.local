@@ -9,6 +9,5 @@
    <object objectType="Relation" objectID="79D34BF3-05AA-EDBA-5A30-2C987CACA96C" name="Relation_2" seqName="seg_0"/>
    <object objectType="Relation" objectID="2A00CEB7-2DD7-87F4-33BD-319DFADC4EC7" name="Relation_3" seqName="seg_0"/>
    <object objectType="Relation" objectID="8CBC4039-7DEA-FFFD-D0FC-47F9FA4BDD5C" name="Relation_5" seqName="seg_0"/>
-   <object objectType="Relation" objectID="2CDFA4DA-551D-2AEB-615D-D41DF4BA765F" name="Relation_7" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="6AC0088E-8A65-83F1-6809-68E08A5777C3" name="Hierarchy_1" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
