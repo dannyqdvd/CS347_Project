@@ -1,0 +1,78 @@
+DROP SEQUENCE NL_Member_seq ; 
+create sequence NL_Member_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_Member_PK_trig 
+; 
+
+create or replace trigger NL_Member_PK_trig 
+before insert on NL_Member
+for each row 
+begin 
+select NL_Member_seq.nextval into :new.member_id from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_User_seq ; 
+create sequence NL_User_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_User_PK_trig 
+; 
+
+create or replace trigger NL_User_PK_trig 
+before insert on NL_User
+for each row 
+begin 
+select NL_User_seq.nextval into :new.user_id from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_admin_seq ; 
+create sequence NL_admin_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_admin_PK_trig 
+; 
+
+create or replace trigger NL_admin_PK_trig 
+before insert on NL_admin
+for each row 
+begin 
+select NL_admin_seq.nextval into :new.user_id from dual; 
+end; 
+/
+
+DROP SEQUENCE m2m_seq ; 
+create sequence m2m_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER m2m_PK_trig 
+; 
+
+create or replace trigger m2m_PK_trig 
+before insert on m2m
+for each row 
+begin 
+select m2m_seq.nextval into :new.m2m_id from dual; 
+end; 
+/
+
+DROP INDEX NL_Member_member_id_FK_0 ;
+CREATE INDEX NL_Member_member_id_FK_0 ON NL_Document(NL_Member_member_id) ;
+DROP INDEX NL_admin_user_id_FK_1 ;
+CREATE INDEX NL_admin_user_id_FK_1 ON NL_Member(NL_admin_user_id) ;
+DROP INDEX user_id_FK_2 ;
+CREATE INDEX user_id_FK_2 ON NL_admin(user_id) ;
+DROP INDEX NL_Member_member_id_FK_3 ;
+CREATE INDEX NL_Member_member_id_FK_3 ON m2m(NL_Member_member_id) ;
+DROP INDEX NL_Member_member_id1_FK_4 ;
+CREATE INDEX NL_Member_member_id1_FK_4 ON m2m(NL_Member_member_id1) ;
