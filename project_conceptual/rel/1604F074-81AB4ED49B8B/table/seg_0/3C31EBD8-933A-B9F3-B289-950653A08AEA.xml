@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C31EBD8-933A-B9F3-B289-950653A08AEA" name="NL_Member">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>985D9546-7B6C-563C-C765-80610454E3B3</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_id" id="470BCB2F-E1F4-EC89-EBB0-32DE7E45682F">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>A810B7B6-0997-8242-D2A5-FC93D0210ECB</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="58E71C72-7629-9BB5-0C1E-7AF2FD0B6A52">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>69AF91F7-254D-11F7-7513-47DE1059CC79</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="FB546147-EE90-E687-F1DE-83B94B1A400B">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>BFB786A3-AB9C-6FA5-ACE7-50696F493A0C</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="133F6777-A90C-3FEB-692A-F4D0470A195F">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>9FF9C296-5E78-11AA-76BE-AAC836B83C1B</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="35E71950-E5DF-B974-C1FC-ADCC5084420E">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>CFF7F684-EC7D-6264-6AB7-45D8B1BCE42F</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ownership_division_code" id="1CFE3F08-3D78-0977-F5B2-A98B5A3BC968">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>71EDC7AE-C0AE-01CB-B860-1E6AE6714FBA</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="external_view_name" id="561A526A-77C1-61B9-7886-2E2F15C19F70">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>B5C65B2A-0FDB-8CD0-2302-0774CD58B132</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_effective_date" id="0BC57B7D-B256-37AA-F98A-729FEC22356B">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>622ACFE6-1F17-3D7A-0B15-B9119BB97475</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_admin_user_id" id="0035CA82-6A4F-9359-33C4-18076FC205F3">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>5380BCCD-406E-7291-42C5-478F682F36E5</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B06386F4-5F28-8759-50FE-A3A89FB6FA21</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B1C9DA3-9CE4-35D1-8CD5-54B40DE0092C" referredColumn="B06386F4-5F28-8759-50FE-A3A89FB6FA21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="186C16E5-2F6C-C0A7-7B2D-BB3FCECF4AC2" name="NL_Member_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>704D2092-DE63-E35B-1E09-D7F376C403B3</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="470BCB2F-E1F4-EC89-EBB0-32DE7E45682F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B6445E0-4E02-F224-17D3-AE4E525E03DC" name="NL_Member_NL_admin_FK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>79D34BF3-05AA-EDBA-5A30-2C987CACA96C</generatorID>
+<ownerDesignName>project_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0035CA82-6A4F-9359-33C4-18076FC205F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
