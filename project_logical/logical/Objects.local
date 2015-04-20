@@ -1,14 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="32DCB8DC-4273-347C-D1F9-972BAD313A6B" name="NL_Document" seqName="seg_0"/>
-   <object objectType="Entity" objectID="985D9546-7B6C-563C-C765-80610454E3B3" name="NL_Member" seqName="seg_0"/>
    <object objectType="Entity" objectID="10249E41-8F4E-AD1C-E536-6FA2C3A6C685" name="NL_User" seqName="seg_0"/>
-   <object objectType="Entity" objectID="76E82F95-9861-232E-A0EB-896BBB670FB9" name="NL_admin" seqName="seg_0"/>
+   <object objectType="Entity" objectID="32DCB8DC-4273-347C-D1F9-972BAD313A6B" name="NL_Document" seqName="seg_0"/>
    <object objectType="Entity" objectID="6DCD508A-A8E4-DAC7-5987-F5D00DD83E7B" name="m2m" seqName="seg_0"/>
-   <object objectType="Relation" objectID="EB37DC95-6A57-0361-CE1E-804585BE7582" name="Relation_1" seqName="seg_0"/>
-   <object objectType="Relation" objectID="79D34BF3-05AA-EDBA-5A30-2C987CACA96C" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Entity" objectID="76E82F95-9861-232E-A0EB-896BBB670FB9" name="NL_admin" seqName="seg_0"/>
+   <object objectType="Entity" objectID="985D9546-7B6C-563C-C765-80610454E3B3" name="NL_Member" seqName="seg_0"/>
    <object objectType="Relation" objectID="2A00CEB7-2DD7-87F4-33BD-319DFADC4EC7" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="79D34BF3-05AA-EDBA-5A30-2C987CACA96C" name="Relation_2" seqName="seg_0"/>
    <object objectType="Relation" objectID="8CBC4039-7DEA-FFFD-D0FC-47F9FA4BDD5C" name="Relation_5" seqName="seg_0"/>
-   <object objectType="Relation" objectID="BD1B7251-7E28-73E2-FAE9-F7664F0AE903" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EB37DC95-6A57-0361-CE1E-804585BE7582" name="Relation_1" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="6AC0088E-8A65-83F1-6809-68E08A5777C3" name="Hierarchy_1" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

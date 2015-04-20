@@ -4,7 +4,7 @@
 <createdTime>2015-04-15 17:05:51 UTC</createdTime>
 <ownerDesignName>project_logical</ownerDesignName>
 <engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
+<item key="1604F074-272C-1527-AABC-81AB4ED49B8B" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,83 +20,8 @@
 <createdTime>2015-04-15 17:06:00 UTC</createdTime>
 <ownerDesignName>project_logical</ownerDesignName>
 <engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
+<item key="1604F074-272C-1527-AABC-81AB4ED49B8B" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="user_name" id="2BECE0A7-F589-39DC-F8E2-F29CAB38DC0B">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-04-20 23:06:51 UTC</createdTime>
-<ownerDesignName>project_logical</ownerDesignName>
-<engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Attribute>
-<Attribute name="user_lab" id="856ABA83-4588-7A56-D0F0-51809DB4A8D9">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-04-20 23:07:36 UTC</createdTime>
-<ownerDesignName>project_logical</ownerDesignName>
-<engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-</Attribute>
-<Attribute name="user_division" id="C3255498-6C3E-389D-EB5D-47380BD5860A">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-04-20 23:08:25 UTC</createdTime>
-<ownerDesignName>project_logical</ownerDesignName>
-<engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-</Attribute>
-<Attribute name="user_status" id="0BDEADC6-A9CA-8687-CE02-8A85EF6C0FDC">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-04-20 23:08:40 UTC</createdTime>
-<ownerDesignName>project_logical</ownerDesignName>
-<engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-</Attribute>
-<Attribute name="status_effective_date" id="3A018871-FCE6-55FD-9274-6DA7617266A1">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-04-20 23:08:56 UTC</createdTime>
-<ownerDesignName>project_logical</ownerDesignName>
-<engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-</Attribute>
-<Attribute name="member_id" id="F701FF07-D0E6-A2A2-3FF4-F8DF9E512F6C">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-04-20 23:10:57 UTC</createdTime>
-<generatorID>BD1B7251-7E28-73E2-FAE9-F7664F0AE903</generatorID>
-<ownerDesignName>project_logical</ownerDesignName>
-<engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
-</engineerTo>
-<referedAttribute>A810B7B6-0997-8242-D2A5-FC93D0210ECB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -108,7 +33,7 @@
 <createdTime>2015-04-15 17:06:11 UTC</createdTime>
 <ownerDesignName>project_logical</ownerDesignName>
 <engineerTo>
-<item key="5ED26E93-785F-2466-31C6-FFAD922E0E55" value="true"/>
+<item key="1604F074-272C-1527-AABC-81AB4ED49B8B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
