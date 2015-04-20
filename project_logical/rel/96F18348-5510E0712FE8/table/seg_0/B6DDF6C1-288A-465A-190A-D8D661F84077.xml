@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6DDF6C1-288A-465A-190A-D8D661F84077" name="NL_Member">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>985D9546-7B6C-563C-C765-80610454E3B3</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_id" id="EADFB813-FD1C-073C-BE19-552631FC2EA7">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>A810B7B6-0997-8242-D2A5-FC93D0210ECB</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="33BADCF0-BC08-DDCC-FAED-A03720BB136C">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>69AF91F7-254D-11F7-7513-47DE1059CC79</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="7AFB0AA0-3CED-31D0-96D4-D22E71746FB4">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>BFB786A3-AB9C-6FA5-ACE7-50696F493A0C</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E8CA7EF5-3354-E19F-D18A-2ADA3010CFCA">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>9FF9C296-5E78-11AA-76BE-AAC836B83C1B</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="927BA1BB-B814-5EBF-F8F7-1362202A91FA">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>CFF7F684-EC7D-6264-6AB7-45D8B1BCE42F</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ownership_division_code" id="A37CF3D6-09DC-387F-0133-CD20BFD4BC10">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>71EDC7AE-C0AE-01CB-B860-1E6AE6714FBA</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="external_view_name" id="1008A875-D937-B708-4C2C-110373A844DB">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>B5C65B2A-0FDB-8CD0-2302-0774CD58B132</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_effective_date" id="744C6057-9B46-EF14-2A3D-8D2DA9B769D1">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>622ACFE6-1F17-3D7A-0B15-B9119BB97475</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_admin_user_id" id="5A78F599-E585-617B-6943-06A70D84B051">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>5380BCCD-406E-7291-42C5-478F682F36E5</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>82F5734F-1D29-4E6D-F0BE-562D212B4457</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C20786E-69CD-D1FB-C528-829D51A93C06" referredColumn="82F5734F-1D29-4E6D-F0BE-562D212B4457"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="162F0932-2CAD-26B7-930B-EEDB5F763B2C" name="NL_Member_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>704D2092-DE63-E35B-1E09-D7F376C403B3</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EADFB813-FD1C-073C-BE19-552631FC2EA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02F17C49-476E-7C6A-DF72-6001EFC2A177" name="NL_Member_NL_admin_FK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>79D34BF3-05AA-EDBA-5A30-2C987CACA96C</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A78F599-E585-617B-6943-06A70D84B051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

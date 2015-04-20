@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0294F0B-EB7C-C110-43B9-85561AB74C2F" name="m2m">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>6DCD508A-A8E4-DAC7-5987-F5D00DD83E7B</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="m2m_id" id="C53D4392-49B5-3871-DE8D-E6891FE362FA">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>AF504FF2-83D1-353F-9B20-3CC1A1F297F1</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_Member_member_id" id="FAF9DFE8-FBB3-3DA5-7029-9A422AB9FC47">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>5D3C7C1C-CDC5-16BC-2639-E0D943DACCA4</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EADFB813-FD1C-073C-BE19-552631FC2EA7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52CF209F-8BFD-D3B8-0E84-12CB0BA3CAC7" referredColumn="EADFB813-FD1C-073C-BE19-552631FC2EA7"/>
+</associations>
+</Column>
+<Column name="NL_Member_member_id1" id="090FF32A-6877-C2AB-87CE-E807A8601EBA">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>4197D9F7-9A6F-16D1-59A7-574DD2F610A6</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EADFB813-FD1C-073C-BE19-552631FC2EA7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD40040B-B6ED-37CC-8FBA-B4D01E53A253" referredColumn="EADFB813-FD1C-073C-BE19-552631FC2EA7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="900290D5-ECCA-02C2-6E7C-2925A5097474" name="m2m_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>0DE1A159-BAFB-83FB-C32D-F827EFA82AD3</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C53D4392-49B5-3871-DE8D-E6891FE362FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD4C5864-1F68-E40E-1283-3F1E9C785215" name="m2m_NL_Member_FK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>EB37DC95-6A57-0361-CE1E-804585BE7582</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAF9DFE8-FBB3-3DA5-7029-9A422AB9FC47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A8E3131-BAB8-1FA5-7E75-B64F9F1E168B" name="m2m_NL_Member_FKv1">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:17:50 UTC</createdTime>
+<generatorID>2A00CEB7-2DD7-87F4-33BD-319DFADC4EC7</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="090FF32A-6877-C2AB-87CE-E807A8601EBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

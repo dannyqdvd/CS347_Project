@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A6F3818-E49A-BE34-C0F8-B054A70EC761" name="NL_User">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:24:18 UTC</createdTime>
+<generatorID>10249E41-8F4E-AD1C-E536-6FA2C3A6C685</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="4887D6F9-D504-C82D-13D8-C8EED6337BC6">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:24:18 UTC</createdTime>
+<generatorID>A84A230C-BBBF-54E1-E735-8830E90CF3AC</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B5217F1-17B9-523C-2536-40C236E6E02B" name="NL_User_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-15 17:24:18 UTC</createdTime>
+<generatorID>DE64C182-3631-C713-2423-92F97FD72D7A</generatorID>
+<ownerDesignName>project_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4887D6F9-D504-C82D-13D8-C8EED6337BC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
