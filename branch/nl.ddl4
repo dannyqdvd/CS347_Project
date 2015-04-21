@@ -1,0 +1,19 @@
+create or replace trigger e_status_trigger
+    BEFORE insert ON nl_emp
+    for each row
+BEGIN
+    select 'A', sysdate()
+    into :NEW.E_STATUS, :NEW.E_STATUS_EFF_DATE
+    from DUAL;
+END;
+/
+
+create or replace trigger list_status_trigger
+    BEFORE insert ON NL_LIST
+    for each row
+BEGIN
+    select 'A', sysdate()
+    into :NEW.LIST_STATUS, :NEW.LIST_STATUS_EFF_DATE
+    from DUAL;
+END;
+/
