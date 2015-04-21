@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4C35C80-7596-CDB6-CE95-9A6B64DBC2D4" name="nl_employee">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 19:47:39 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2BDE4319-0F9E-745F-5D92-25722DFB5EBB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employee_id" id="47D55E94-4F16-9881-166D-144159699B67">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 19:51:23 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="922056E5-9AEF-9698-DD3D-B5C6037C4E5C" name="{entity} PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 19:51:27 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>47D55E94-4F16-9881-166D-144159699B67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

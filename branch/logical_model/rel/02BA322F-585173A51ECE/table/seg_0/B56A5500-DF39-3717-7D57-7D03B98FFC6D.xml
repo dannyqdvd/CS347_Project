@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B56A5500-DF39-3717-7D57-7D03B98FFC6D" name="nl_member">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 20:23:55 UTC</createdTime>
+<generatorID>66EFCC1A-1AAA-71D3-00E7-1B6962B5E4EF</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_id" id="0E02986D-98BB-84A3-D9F1-CF96B1AB4A6C">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 20:23:55 UTC</createdTime>
+<generatorID>0306ECEB-085B-0483-9F50-4B08C34E03C2</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="6BE1BC1D-DBA6-2E67-F339-C4B75B712A3A">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 20:23:55 UTC</createdTime>
+<generatorID>F49EACB6-A3EB-5BC0-2F84-32F4BA830C7C</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D906A2C-20FA-1FA6-F6DE-4DC65C6F5AD0" name="nl_member_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 20:23:55 UTC</createdTime>
+<generatorID>84C65A21-0F21-68F4-4982-6A13E5ACD467</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E02986D-98BB-84A3-D9F1-CF96B1AB4A6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="2A8EC9F9-7A99-216B-9C65-5E70C49B69F4" name="nl_document" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D4C35C80-7596-CDB6-CE95-9A6B64DBC2D4" name="nl_employee" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2BDE4319-0F9E-745F-5D92-25722DFB5EBB" name="nl_member" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1BA56FC2-D9F9-D4D5-E6C6-5CF8D2DD2CFD" name="nl_notice_list" seqName="seg_0"/>
+   <object objectType="Relation" objectID="489E7E6F-1809-6402-4669-CD0B7D592E37" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="21DC731C-6A1A-ABE3-5BC8-943D5D6685AF" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="40AB651F-1FC7-3F28-6AA6-9AC740EF747C" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="807612CC-4751-54D3-612C-9DE2C514EAF3" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="D9E0792B-936B-FE58-117A-8ADCAE5A4F69" name="Hierarchy_2" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

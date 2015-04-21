@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A8EC9F9-7A99-216B-9C65-5E70C49B69F4" name="nl_document">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 19:53:06 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="51453D18-4160-44F9-868A-10802CD3E835">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 19:53:16 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="member_id" id="78C7A1B6-1663-63C2-3327-5BBF9327681B">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 19:53:47 UTC</createdTime>
+<generatorID>40AB651F-1FC7-3F28-6AA6-9AC740EF747C</generatorID>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
+</engineerTo>
+<referedAttribute>126214DE-37CF-D50D-F658-D09A55E2CC98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64C51830-15FB-4376-7E4C-7FDE4DEA1C0A" name="{entity} PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-21 19:53:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51453D18-4160-44F9-868A-10802CD3E835</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
