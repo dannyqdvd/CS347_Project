@@ -4,7 +4,7 @@
 <createdTime>2015-04-21 19:56:07 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
-<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
+<item key="7EBE6809-2469-D948-31A9-C7B8F89743AD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-04-21 19:56:23 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
-<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
+<item key="7EBE6809-2469-D948-31A9-C7B8F89743AD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,13 +31,39 @@
 <createdTime>2015-04-21 19:56:23 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
-<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
+<item key="7EBE6809-2469-D948-31A9-C7B8F89743AD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="e_id" id="97BD4995-99CA-C518-6102-DB30A310379C">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-22 23:37:59 UTC</createdTime>
+<generatorID>2C2FDF18-9F14-A780-C446-11889A5DCA9B</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7EBE6809-2469-D948-31A9-C7B8F89743AD" value="true"/>
+</engineerTo>
+<referedAttribute>E82AF75F-D23B-3F55-70C6-9D1AEEC13D1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="list_id" id="63D7164C-788D-9F30-9BFB-8E974C4CF0BE">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-04-22 23:38:25 UTC</createdTime>
+<generatorID>8896A815-AE7C-64C8-79E8-5A96F78FDA6E</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7EBE6809-2469-D948-31A9-C7B8F89743AD" value="true"/>
+</engineerTo>
+<referedAttribute>20FE5A6E-17ED-B455-7C7B-574AA701A0E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -46,7 +72,7 @@
 <createdTime>2015-04-21 19:56:37 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
-<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
+<item key="7EBE6809-2469-D948-31A9-C7B8F89743AD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

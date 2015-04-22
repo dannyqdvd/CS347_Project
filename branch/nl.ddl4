@@ -1,5 +1,7 @@
+
+
 create or replace trigger e_status_trigger
-    BEFORE insert ON nl_emp
+    BEFORE insert ON nl_employee
     for each row
 BEGIN
     select 'A', sysdate()
