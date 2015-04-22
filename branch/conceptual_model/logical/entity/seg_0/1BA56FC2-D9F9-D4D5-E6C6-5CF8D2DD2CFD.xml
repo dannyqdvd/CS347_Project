@@ -15,19 +15,4 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="employee_id" id="32C9FC0A-3B5D-9F6D-B1EA-D7942443A5ED">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-04-21 19:52:31 UTC</createdTime>
-<generatorID>21DC731C-6A1A-ABE3-5BC8-943D5D6685AF</generatorID>
-<ownerDesignName>conceptual_model</ownerDesignName>
-<engineerTo>
-<item key="FC8F521A-B038-876A-AA4E-215AF290F562" value="true"/>
-</engineerTo>
-<referedAttribute>47D55E94-4F16-9881-166D-144159699B67</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-</attributes>
 </Entity>

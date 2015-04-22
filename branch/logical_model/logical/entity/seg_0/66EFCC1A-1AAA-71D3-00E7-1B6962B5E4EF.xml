@@ -4,7 +4,7 @@
 <createdTime>2015-04-21 19:56:07 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
-<item key="02BA322F-80CB-8841-FF1A-585173A51ECE" value="true"/>
+<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-04-21 19:56:23 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
-<item key="02BA322F-80CB-8841-FF1A-585173A51ECE" value="true"/>
+<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,7 +31,7 @@
 <createdTime>2015-04-21 19:56:23 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
-<item key="02BA322F-80CB-8841-FF1A-585173A51ECE" value="true"/>
+<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,9 +45,8 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-04-21 19:56:37 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="02BA322F-80CB-8841-FF1A-585173A51ECE" value="false"/>
+<item key="7BD65201-FDEE-BB74-D1F8-49842628F98E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
