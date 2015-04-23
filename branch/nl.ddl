@@ -47,8 +47,8 @@ CREATE TABLE nl_member
   (
     member_id        INTEGER NOT NULL ,
     type             VARCHAR2 (255) ,
-    nl_employee_e_id INTEGER NOT NULL ,
-    nl_list_list_id  INTEGER NOT NULL
+    nl_employee_e_id INTEGER ,
+    nl_list_list_id  INTEGER 
   ) ;
 CREATE UNIQUE INDEX nl_member__IDX ON nl_member
   (

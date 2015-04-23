@@ -19,3 +19,41 @@ BEGIN
     from DUAL;
 END;
 /
+
+create or replace trigger member_from_list
+    AFTER insert ON NL_LIST
+    for each row
+BEGIN
+    
+    insert into NL_MEMBER(
+        MEMBER_ID,
+        TYPE,
+        NL_EMPLOYEE_E_ID,
+        NL_LIST_LIST_ID)
+    VALUES (
+        NL_MEMBER_SEQ.NEXTVAL,
+        'list',
+        null,
+        :NEW.LIST_ID) ;
+
+END;
+/
+
+create or replace trigger member_from_employee
+    AFTER insert ON NL_EMPLOYEE
+    for each row
+BEGIN
+    
+    insert into NL_MEMBER(
+        MEMBER_ID,
+        TYPE,
+        NL_EMPLOYEE_E_ID,
+        NL_LIST_LIST_ID)
+    VALUES (
+        NL_MEMBER_SEQ.NEXTVAL,
+        'employee',
+        :NEW.E_ID,
+        null) ;
+
+END;
+/
