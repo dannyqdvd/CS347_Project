@@ -70,15 +70,15 @@ CREATE TABLE nl_membership
   ) ;
 ALTER TABLE nl_membership ADD CONSTRAINT nl_membership_PK PRIMARY KEY ( membership_id ) ;
 
-ALTER TABLE nl_document ADD CONSTRAINT nl_document_nl_member_FK FOREIGN KEY ( nl_member_member_id ) REFERENCES nl_member ( member_id ) ;
+ALTER TABLE nl_document ADD CONSTRAINT nl_document_nl_member_FK FOREIGN KEY ( nl_member_member_id ) REFERENCES nl_member ( member_id ) ON DELETE CASCADE ;
 
-ALTER TABLE nl_member ADD CONSTRAINT nl_member_nl_employee_FK FOREIGN KEY ( nl_employee_e_id ) REFERENCES nl_employee ( e_id ) ;
+ALTER TABLE nl_member ADD CONSTRAINT nl_member_nl_employee_FK FOREIGN KEY ( nl_employee_e_id ) REFERENCES nl_employee ( e_id ) ON DELETE CASCADE ;
 
-ALTER TABLE nl_member ADD CONSTRAINT nl_member_nl_list_FK FOREIGN KEY ( nl_list_list_id ) REFERENCES nl_list ( list_id ) ;
+ALTER TABLE nl_member ADD CONSTRAINT nl_member_nl_list_FK FOREIGN KEY ( nl_list_list_id ) REFERENCES nl_list ( list_id ) ON DELETE CASCADE ;
 
-ALTER TABLE nl_membership ADD CONSTRAINT nl_membership_nl_list_FK FOREIGN KEY ( nl_list_list_id ) REFERENCES nl_list ( list_id ) ;
+ALTER TABLE nl_membership ADD CONSTRAINT nl_membership_nl_list_FK FOREIGN KEY ( nl_list_list_id ) REFERENCES nl_list ( list_id ) ON DELETE CASCADE ;
 
-ALTER TABLE nl_membership ADD CONSTRAINT nl_membership_nl_member_FK FOREIGN KEY ( nl_member_member_id ) REFERENCES nl_member ( member_id ) ;
+ALTER TABLE nl_membership ADD CONSTRAINT nl_membership_nl_member_FK FOREIGN KEY ( nl_member_member_id ) REFERENCES nl_member ( member_id ) ON DELETE CASCADE ;
 
 
 -- Oracle SQL Developer Data Modeler Summary Report: 
