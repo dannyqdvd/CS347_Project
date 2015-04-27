@@ -27,8 +27,8 @@ prompt APPLICATION 94827 - Notification Lists Project
 -- Application Export:
 --   Application:     94827
 --   Name:            Notification Lists Project
---   Date and Time:   06:22 Monday April 27, 2015
---   Exported By:     MCHIN461@GMAIL.COM
+--   Date and Time:   15:39 Monday April 27, 2015
+--   Exported By:     DANNY
 --   Flashback:       0
 --   Export Type:     Application Export
 --   Version:         5.0.0.00.31
@@ -109,8 +109,8 @@ wwv_flow_api.create_flow(
 ,p_browser_frame=>'D'
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
-,p_last_updated_by=>'MCHIN461@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150427055941'
+,p_last_updated_by=>'DANNY'
+,p_last_upd_yyyymmddhh24miss=>'20150427153904'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
@@ -8333,7 +8333,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'DANNY'
-,p_last_upd_yyyymmddhh24miss=>'20150425002619'
+,p_last_upd_yyyymmddhh24miss=>'20150427153904'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3344249595196218404)
@@ -8351,16 +8351,16 @@ wwv_flow_api.create_page_plug(
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3370520731963042350)
-,p_plug_name=>'CS347'
+,p_plug_name=>'CS347 Project by Danny Nguyen and Michael Chin'
 ,p_region_template_options=>'#DEFAULT#:t-Region--scrollBody'
-,p_escape_on_http_output=>'Y'
 ,p_plug_template=>wwv_flow_api.id(3267051624499131591)
 ,p_plug_display_sequence=>20
 ,p_include_in_reg_disp_sel_yn=>'N'
 ,p_plug_display_point=>'BODY'
-,p_plug_source=>'<iframe width="560" height="315" src="https://www.youtube.com/embed/xDVZZQNeNUU" frameborder="0" allowfullscreen></iframe>'
+,p_plug_source=>'<iframe width="560" height="315" src="https://www.youtube.com/embed/Un5SEJ8MyPc" frameborder="0" allowfullscreen></iframe>'
 ,p_plug_query_row_template=>1
 ,p_plug_query_num_rows=>15
+,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
 ,p_plug_display_condition_type=>'ALWAYS'
 ,p_attribute_01=>'N'
 ,p_attribute_02=>'HTML'
@@ -8724,7 +8724,7 @@ wwv_flow_api.create_page(
 ,p_user_interface_id=>wwv_flow_api.id(3267132654717134419)
 ,p_name=>'Form on NL_LIST'
 ,p_page_mode=>'MODAL'
-,p_step_title=>'Form on NL_LIST'
+,p_step_title=>'Add new List'
 ,p_step_sub_title_type=>'TEXT_WITH_SUBSTITUTIONS'
 ,p_first_item=>'NO_FIRST_ITEM'
 ,p_javascript_code=>'var htmldb_delete_message=''"DELETE_CONFIRM_MSG"'';'
@@ -8735,8 +8735,8 @@ wwv_flow_api.create_page(
 ,p_protection_level=>'C'
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
-,p_last_updated_by=>'MCHIN461@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150424234237'
+,p_last_updated_by=>'DANNY'
+,p_last_upd_yyyymmddhh24miss=>'20150427152704'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3268987733874265476)
@@ -9989,7 +9989,7 @@ wwv_flow_api.create_page(
 ,p_user_interface_id=>wwv_flow_api.id(3267132654717134419)
 ,p_name=>'Form on NL_DOCUMENT'
 ,p_page_mode=>'MODAL'
-,p_step_title=>'Form on NL_DOCUMENT'
+,p_step_title=>'Upload New Document'
 ,p_step_sub_title_type=>'TEXT_WITH_SUBSTITUTIONS'
 ,p_first_item=>'NO_FIRST_ITEM'
 ,p_javascript_code=>'var htmldb_delete_message=''"DELETE_CONFIRM_MSG"'';'
@@ -10001,7 +10001,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'DANNY'
-,p_last_upd_yyyymmddhh24miss=>'20150424220528'
+,p_last_upd_yyyymmddhh24miss=>'20150427152747'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3353542225237929878)
